@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Monreta-bold;
+    src: url(Font/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Monreta-regular;
+    src: url(Font/Montserrat-Regular.ttf);
+}
+
+
+body {
+    margin: 0;
+    background: black;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3),black), url(image/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.tittle1, #hero-btn {
+    margin: 0;
+}
+
+.tittle1 {
+    font-family: monreta-bold;
+    font-size: 150px;
+    transition: 0.5s;
+}
+
+.tittle1:hover {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+button {
+    font-family: monreta-regular;
+}
+
+#hero-btn {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    padding: 14px 70px;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.places {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#tittle2, #tittle3 {
+    font-family: monreta-bold;
+    font-size: 70px;
+    text-align: center;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.tillaqori, .ulugbek, .registan {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.r-img, .u-img, .t-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.registan p, .ulugbek p, .tillaqori p {
+    font-family: monreta-bold;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+}
+
+.registan-btn, .ulugbek-btn, .tillaqori-btn {
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-size: 15px;
+    background-color: rgb(238, 34, 34);
+    color: #fff;
+}
+.guide {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+#guide-img {
+    width: 350px;
+    height: 350Spx;
+    border-radius: 50px;
+    margin: 20px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-right: 150px;
+}
+
+.info h3 {
+    font-family: monreta-bold;
+    font-size: 40px;
+}
+
+.reward, .skills, .experience, .age {
+    font-family: monreta-regular;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0;
+}
+.reward {
+    margin-bottom: 5px;
+}
+.country {
+    font-family: monreta-bold;
+    font-size: 30px ;
+}
+
+#btn-contact {
+    display: flex;
+    justify-content: end;
+}
